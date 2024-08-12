@@ -1,0 +1,38 @@
+/* General styling for the window */
+.window {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text */
+    font-family: 'Helvetica', sans-serif; /* Choose a suitable font */
+    font-size: 16px; /* Font size */
+    padding: 16px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Styling for buttons */
+.button {
+    background-image: none ;
+    background-color: #3498db; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.button:active {
+    background-color: #1c437a; /* Even darker on active */
+}
+
+/* Styling for the Sudoku grid */
+.sudokuGrid button {
+    min-width: 40px; /* Minimum width */
+    min-height: 40px; /* Minimum height */
+    font-size: 16px; /* Font size */
+    margin: 4px; /* Slightly increased spacing between buttons */
+}
